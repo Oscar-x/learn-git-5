@@ -21,9 +21,12 @@ public class CallFunction {
                 ManipulateNum.manipulateNum(str);
                 break;
             case "看看":
-                /*PrintOut.printOut(str);break;/
+                /*PrintOut.printOut(str);
+                break;/
+                 */
             case "如果":
-               /* TernaryOperator.ternaryOperator(str);break;*/
+               /* TernaryOperator.ternaryOperator(str);
+               break;*/
         }
     }
 }
