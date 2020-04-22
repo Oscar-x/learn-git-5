@@ -17,5 +17,8 @@ public class TernaryOperatorTest {
         TernaryOperator.ternaryOperator(s);
         int qw1=Variable.getVar("气温");
         Assert.assertEquals(6, qw1);
+        TernaryOperator.ternaryOperator(s);
+        int qw2=Variable.getVar("气温");
+        Assert.assertEquals(3, qw2);
     }
 }
