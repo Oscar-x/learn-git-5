@@ -1,10 +1,10 @@
 package com.juice.test;
 
 import com.juice.utils.AssignVar;
+import com.juice.utils.ManipulateNum;
 import com.juice.utils.Variable;
 import org.junit.Assert;
 import org.junit.Test;
-import com.juice.utils.ManipulateNum;
 
 public class ManipulateNumTest {
     @Test
