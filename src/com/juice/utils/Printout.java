@@ -10,10 +10,12 @@ public class Printout{
         String varStr=split[1];
         if(varStr.contains("“")&&varStr.contains("”")){
             String trim = varStr.trim().replace("“","").replace("”","").trim();
+            System.out.println(trim);
             return trim;
         }
         else{
             int var = Variable.getVar(varStr.trim());
+            System.out.println(Transfer.toChStr(var));
             return ""+var;
         }
     }

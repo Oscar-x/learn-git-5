@@ -17,10 +17,10 @@ public class TernaryOperator {
         String str4=str3[0];
         String str5=Baa[2].trim();
         if(JudgeOperator.judgeOperator(str2)){
-            CallFunction.CallFunction(str4);
+            CallFunction.callFunction(str4);
         }
         else{
-            CallFunction.CallFunction(str5);
+            CallFunction.callFunction(str5);
         }
     }
 }
